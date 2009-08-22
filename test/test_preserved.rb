@@ -13,7 +13,7 @@ class TestPreserved < Test::Unit::TestCase
     if RUBY_VERSION =~ /^1.9/
       str2.force_encoding('UTF-8')
     end
-    str.lines.zip(str2.lines).each do |s1, s2|
+    str.split("\n").zip(str2.split("\n")).each do |s1, s2|
       assert_equal s1, s2
     end
   end
