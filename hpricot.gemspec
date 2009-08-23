@@ -1,9 +1,13 @@
 Gem::Specification.new do |s|
   s.name = %q{hpricot}
-  s.version = "0.7.229"
+<<<<<<< HEAD:hpricot.gemspec
+  s.version = "0.8.265"
+=======
+  s.version = "0.8.268"
  
+>>>>>>> bfacf23... bump version in gemsp:hpricot.gemspec
   s.authors = ["why the lucky stiff"]
-  s.date = %q{2009-03-23}
+  s.date = %q{2009-08-22}
   s.description = %q{a swift, liberal HTML parser with a fantastic library}
   s.email = %q{why@ruby-lang.org}
   s.extensions = ["ext/fast_xs/extconf.rb", "ext/hpricot_scan/extconf.rb"]
